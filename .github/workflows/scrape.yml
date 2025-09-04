@@ -2,8 +2,8 @@ name: Scrape and Publish
 
 on:
   schedule:
-    - cron: "0 * * * *"   # cada hora en UTC
-  workflow_dispatch:      # permitir lanzarlo manualmente
+    - cron: "0 * * * *"   # cada hora (UTC)
+  workflow_dispatch:        # botón Run workflow
 
 permissions:
   contents: read
